@@ -1,0 +1,20 @@
+spring:
+  rabbitmq:
+    host: ${SPRING_RABBITMQ_HOST}
+    port: ${SPRING_RABBITMQ_PORT}
+    username: ${SPRING_RABBITMQ_USERNAME}
+    password: ${SPRING_RABBITMQ_PASSWORD}
+    exchange:
+      name: myExchange
+      type: direct
+    listener:
+      simple:
+        default-requeue-rejected: false
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework: INFO
+    com.example.rabbitmq: DEBUG

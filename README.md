@@ -10,6 +10,7 @@ Este é um projeto de aprendizado mensageria com RabbitMQ que demonstra a integr
 - Recebimento de mensagens de uma fila RabbitMQ.
 - Exposição de uma API REST para interagir com o sistema de mensageria.
 - Documentação da API utilizando Swagger UI.
+- Usando container docker
 
 ## Tecnologias Utilizadas
 
